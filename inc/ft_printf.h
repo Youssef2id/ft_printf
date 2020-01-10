@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yidabdes <yidabdes@student.1337.ma>        +#+  +:+       +#+        */
+/*   By: yidabdes <yidabdes@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/21 22:04:12 by yidabdes          #+#    #+#             */
-/*   Updated: 2019/07/17 02:47:53 by yidabdes         ###   ########.fr       */
+/*   Updated: 2020/01/10 19:41:32 by yidabdes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <stdio.h>
 # include <stdarg.h>
 # include <math.h>
-# include "../libft/libft.h"
+# include "../../libft/libft.h"
 
 # define I(nbr)  nbr - '0'
 # define C(nbr) (nbr % 10) + '0'
